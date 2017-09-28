@@ -22,3 +22,22 @@ patch:
         patched: '2017-09-14T16:59:35.867Z'
     - skipper > body-parser > debug > ms:
         patched: '2017-09-14T16:59:35.867Z'
+  'npm:debug:20170905':
+    - skipper > debug:
+        patched: '2017-09-28T00:35:07.192Z'
+    - skipper > skipper-disk > debug:
+        patched: '2017-09-28T00:35:07.192Z'
+    - machinepack-redis > machine > debug:
+        patched: '2017-09-28T00:35:07.192Z'
+    - machine-as-script > machine > debug:
+        patched: '2017-09-28T00:35:07.192Z'
+    - machinepack-process > machine > debug:
+        patched: '2017-09-28T00:35:07.192Z'
+    - sails-generate > machinepack-process > machine > debug:
+        patched: '2017-09-28T00:35:07.192Z'
+    - machinepack-process > machinepack-json > machine > debug:
+        patched: '2017-09-28T00:35:07.192Z'
+    - sails-generate > machinepack-process > machinepack-json > machine > debug:
+        patched: '2017-09-28T00:35:07.192Z'
+    - skipper > body-parser > debug:
+        patched: '2017-09-28T00:35:07.192Z'
