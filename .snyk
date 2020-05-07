@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -22,3 +22,12 @@ patch:
         patched: '2017-09-14T16:59:35.867Z'
     - skipper > body-parser > debug > ms:
         patched: '2017-09-14T16:59:35.867Z'
+  SNYK-JS-LODASH-567746:
+    - async > lodash:
+        patched: '2020-05-07T07:52:45.789Z'
+    - machinepack-redis > async > lodash:
+        patched: '2020-05-07T07:52:45.789Z'
+    - sails-generate > async > lodash:
+        patched: '2020-05-07T07:52:45.789Z'
+    - skipper > async > lodash:
+        patched: '2020-05-07T07:52:45.789Z'
